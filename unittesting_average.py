@@ -1,5 +1,5 @@
 from types import UnionType
-def average_of_integers(*integers):
+def calculate_average(*integers: float) -> float:
     sum = 0
 
     for integer in integers:
