@@ -1,1 +1,5 @@
+#Ignore specific file types we don't want to include
 *.pyc
+
+#Ignore everything in the test_reports folder
+tests/test_reports/*

@@ -21,7 +21,7 @@ class Car():
         if self.turned_on is False:
             self.turned_on = True
         else:
-            raise RuntimeError("The car is already turned on.")
+            raise ValueError("The car is already turned on.")
 
     def turn_off(self):
         '''Turns the car off.'''

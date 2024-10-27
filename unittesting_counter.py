@@ -1,4 +1,5 @@
 '''Module Counter'''
+
 def count_letters(string: str):
     '''Returns the number of letters in a string.
     Does not count spaces or signs.'''

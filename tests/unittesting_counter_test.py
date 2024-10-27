@@ -1,12 +1,12 @@
 '''Module is gonna test our Counter class'''
 import unittest
 
-from unittesting_classes import Counter
+from unittesting_counter import count_letters
 
 class EasyTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.counter = Counter()
+        self._string = "Stefan Spiess"
 
     def test_easy_one(self):
         self.assertEqual(self.counter.get_value(), 0)
@@ -30,7 +30,8 @@ class MediumTestCase(unittest.TestCase):
         self.counter = Counter()
 
     def test_medium_one(self):
-        pass
+        with self.assertRaises(TypeError):
+            self.count
 
     def test_medium_two(self):
         pass
