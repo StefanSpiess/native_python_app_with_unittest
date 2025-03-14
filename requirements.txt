@@ -1,5 +1,5 @@
 colorama==0.4.6
-coverage==7.6.4
+coverage==7.6.12
 halo==0.0.31
 html-testRunner==1.2.1
 Jinja2==3.1.6
