@@ -7,4 +7,4 @@ log-symbols==0.0.14
 MarkupSafe==3.0.2
 six==1.17.0
 spinners==0.0.24
-termcolor==3.0.1
+termcolor==3.1.0
